@@ -1,0 +1,66 @@
+body {
+    background-color: darkgray;
+}
+.canvas {
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+}
+
+div.row {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+    width: max-content;
+}
+
+.black {
+    background-color: black;
+}
+.ink_options {
+    text-align: center;
+}
+.ink_option {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.white {
+    background-color: white;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.gray {
+    background-color: gray;
+}
+.orange {
+    background-color: orange;
+}
+.purple {
+    background-color: purple;
+}
+div.cell {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid gray;
+    background-color: lightgray;
+}
