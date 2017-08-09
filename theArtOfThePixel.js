@@ -9,7 +9,7 @@ function makeBlankCanvas() {
     }
 }
 
-let colors = ['white', 'black', 'green', 'yellow', 'blue', 'purple', 'orange', 'gray']
+let colors = ['white', 'silver', 'gray', 'black', 'green', 'maroon', 'yellow', 'olive', 'blue', 'lime', 'purple', 'aqua', 'teal', 'orange', 'navy', 'fuchsia']
 
 function makePallet() {
     for (color of colors){
@@ -27,4 +27,8 @@ $(".cell").click(function(){
 
 $('.ink_option').click(function(){
     inkColor = $(this).css('background-color');
+    $('#color_choice').css('background-color', `${inkColor}`);
+
 });
+
+$('#color_choice').css('background-color', `${inkColor}`);

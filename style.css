@@ -55,6 +55,30 @@ div.row {
 .purple {
     background-color: purple;
 }
+.fuchsia {
+    background-color: fuchsia;
+}
+.navy {
+    background-color: navy;
+}
+.teal {
+    background-color: teal;
+}
+.aqua {
+    background-color: aqua;
+}
+.lime {
+    background-color: lime;
+}
+.olive {
+    background-color: olive;
+}
+.maroon {
+    background-color: maroon;
+}
+.silver {
+    background-color: silver;
+}
 div.cell {
     display: inline-block;
     width: 15px;
@@ -63,4 +87,21 @@ div.cell {
     margin: 0px;
     border: 1px solid gray;
     background-color: lightgray;
+}
+
+#color_choice {
+    display: block;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.current_color {
+    vertical-align: text-top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
 }
